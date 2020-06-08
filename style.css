@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    background-color: #E5E5E5;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    
+}
+.heading{
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.variety{
+    font-family:'Play', sans-serif;
+    font-size: 0.7rem;
+    text-align: center; 
+}
+
+section.rooms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+img.mages{
+    width:18rem;
+    height: auto;
+}
+.roomtext{
+    color: #000000;
+    font-size:1.3rem;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.roomprice{
+    font-family: 'Play', sans-serif;  
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height:0.7rem;
+text-align: center;
+color: #DB8837;
+}
+input[type="button"]{
+    background: #DB8837;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    width: 180px;
+    text-align: center;
+    display: inline-block;
+height: 82px;
+margin: 0 auto;
+
+}
